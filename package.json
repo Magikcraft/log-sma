@@ -11,6 +11,14 @@
     ],
     "author": "Josh Wulf <josh@magikcraft.io>",
     "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Magikcraft/log-sma/issues"
+    },
+    "homepage": "https://github.com/Magikcraft/log-sma#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Magikcraft/log-sma.git"
+    },
     "smaPluginConfig": {},
     "husky": {
         "hooks": {
