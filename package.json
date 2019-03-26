@@ -14,13 +14,12 @@
     "smaPluginConfig": {},
     "husky": {
         "hooks": {
-            "pre-commit": "lint-staged"
+            "pre-commit": "tsc && lint-staged"
         }
     },
     "lint-staged": {
         "*.{ts,json,css,md}": [
             "prettier --write",
-            "tsc",
             "git add"
         ]
     },

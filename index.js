@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 /**
  * This function returns a namespaced log function.
  * The log function takes one argument and an optional second argument.
