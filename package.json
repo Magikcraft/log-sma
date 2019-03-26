@@ -1,0 +1,33 @@
+{
+    "name": "@magikcraft/log",
+    "version": "1.0.0",
+    "description": "Namespaced logging for SMA plugins",
+    "main": "index",
+    "keywords": [
+        "scriptcraft",
+        " scriptcraft-sma",
+        " plugin",
+        " minecraft"
+    ],
+    "author": "Josh Wulf <josh@magikcraft.io>",
+    "license": "ISC",
+    "smaPluginConfig": {},
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "*.{ts,json,css,md}": [
+            "prettier --write",
+            "tsc",
+            "git add"
+        ]
+    },
+    "devDependencies": {
+        "@scriptcraft/types": "^1.0.1",
+        "husky": "^1.3.1",
+        "lint-staged": "^8.1.5",
+        "prettier": "^1.16.4"
+    }
+}
