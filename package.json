@@ -1,8 +1,8 @@
 {
     "name": "@magikcraft/log",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Namespaced logging for SMA plugins",
-    "main": "index",
+    "main": "index.js",
     "keywords": [
         "scriptcraft",
         " scriptcraft-sma",
